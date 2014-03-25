@@ -8,33 +8,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      font-family: 'Merriweather', serif;
       line-height: 1.5rem;
       margin: 0;
       color: #405660;
     }
-    a { color: #0096cc; }
+    .open-sans { font-family: 'Open Sans', sans-serif; }
+    a { color: #0096cc; text-decoration: none; }
     a:hover { color: #007099; }
     header, main, footer { max-width: 48rem; margin: 0 auto; padding: 4rem 2rem; }
     h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0; }
 
-    p { margin-top: 0; margin-bottom: 3rem; }
+    p { font-family: 'Open Sans', sans-serif; margin-top: 0; margin-bottom: 3rem; }
     ol { padding-left: 0; list-style: none; margin-top: 0; margin-bottom: 0; }
     h1, .h1 { font-size: 2rem; line-height: 2.5rem; }
     h2, .h2 { font-size: 1.5rem; line-height: 2rem; }
     h3, .h3 { font-size: 1.25rem; line-height: 2rem; }
-    h4, .h4 { font-size: 1rem; line-height: 1.25rem; }
-    p, dl, ol, ul { font-size: 1rem; }
+    h4, .h4 { font-size: 1.125rem; line-height: 1.25rem; }
+    p, dl, ol, ul { font-size: 1.125rem; }
     h5, .h5 { font-size: .875rem; line-height: 1.5rem; }
     @media screen and (min-width: 48em) {
       h1, .h1 { font-size: 3rem; line-height: 4rem; }
       h2, .h2 { font-size: 2rem; line-height: 3rem; }
       h3, .h3 { font-size: 1.5rem; line-height: 2rem; }
-      h4, .h4 { font-size: 1.125rem; line-height: 1.5rem; }
-      p, dl, ol, ul { font-size: 1.125rem; line-height: 2rem; }
+      h4, .h4 { font-size: 1.25rem; line-height: 1.5rem; }
+      p, dl, ol, ul { font-size: 1.25rem; line-height: 2rem; }
       h5, .h5 { font-size: 1rem; line-height: 1.5rem; }
     }
+    .button {
+      line-height: 2.5rem;
+      display: inline-block;
+      padding: 0 1rem;
+    }
+    .button-box {
+      color: #405660;
+      box-shadow: inset 0 0 0 2px #405660;
+      border-radius: .25rem;
+    }
+    .button-box:hover {
+      color: #fff;
+      background-color: #405660;
+    }
+    .button-box svg { vertical-align: -.125em; fill: #405660; }
+    .button-box:hover svg { fill: #fff; }
+    svg { width: 1em; height: 1em; }
   </style>
+  <link href="http://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 <body>
 
@@ -45,37 +64,37 @@
   <main>
     <ol>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>Simple</h1>
         <p>Keep it simple stupid. The mother of all design principles still applies to the web.</p>
       </li>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>Familiar</h1>
         <p>The web is built on patterns. Rely on familiarity and avoid breaking expectations.</p>
       </li>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>Tested</h1>
         <p>Data is a powerful tool, but just like any tool, it can be abused. Gather and utilize qualitative and quantitative data and constantly strive to improve processes.</p>
       </li>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>Iterative</h1>
         <p>The web is an ever-evolving platform, and web design is never finished.</p>
       </li>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>Unobtrusive</h1>
         <p>The web is about information. Make it easy to find and stay out of the way.</p>
       </li>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>Fast</h1>
         <p>The web thrives on the speed of information. Make things faster not slower.</p>
       </li>
       <li>
-        <h1 class="h5">Good web design is</h1>
+        <h1 class="h4">Good web design is</h1>
         <h1>As little design as possible</h1>
         <p>And as little code as possible.</p>
       </li>
@@ -84,6 +103,14 @@
 
   <footer>
     <p>
+      <a href="https://twitter.com/intent/tweet?text=Principles of Web Design:&url=http://jxnblk.github.io/principles&via=jxnblk" class="h5 button button-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+          <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"/>
+        </svg>
+        Tweet
+      </a>
+    <p class="h5">
+      <a href="http://github.com/jxnblk/principles">View on Github</a>.
       Made with love by
       <a href="http://jxnblk.com">Jxnblk</a>.
     </p>
