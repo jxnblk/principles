@@ -89,22 +89,9 @@
   },
   "content": [
     {
-      "component": "nav",
-      "links": [
-        {
-          "href": "http://jxnblk.github.io/principles",
-          "text": "Home"
-        },
-        {
-          "href": "https://github.com/jxnblk/principles",
-          "text": "GitHub"
-        }
-      ]
-    },
-    {
       "component": "header",
-      "heading": "principles",
-      "subhead": "My principles of web design",
+      "heading": "Principles of Web Design",
+      "subhead": "",
       "children": [
         {
           "component": "ui/TweetButton",
