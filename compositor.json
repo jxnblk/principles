@@ -10,7 +10,7 @@
     "name": "Default",
     "componentSet": {
       "nav": "nav/BasicNav",
-      "header": "header/BannerHeader",
+      "header": "header/BasicHeader",
       "article": "article/BasicArticle",
       "footer": "footer/BasicFooter"
     },
