@@ -1,0 +1,142 @@
+{
+  "name": "jxnblk/principles",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.21"
+  },
+  "title": "Principles of Web Design",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null,
+      "h0": {},
+      "h1": {},
+      "h2": {},
+      "h3": {},
+      "h4": {},
+      "h5": {},
+      "h6": {}
+    },
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://jxnblk.github.io/principles",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/jxnblk/principles",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "principles",
+      "subhead": "My principles of web design",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "principles: My principles of web design",
+          "url": "http://jxnblk.github.io/principles"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jxnblk",
+          "repo": "principles"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Principles of Web Design</h1>\n<h2>Good web design is</h2>\n<h3>Universally Accessible</h3>\n<p>Everyone should be able to view and use the web. Don&#x2019;t exclude people by making bad decisions.</p>\n<h3>Simple</h3>\n<p>Keep it simple stupid. The mother of all design principles still applies to the web.</p>\n<h3>Familiar</h3>\n<p>The web is built on patterns. Rely on familiarity and avoid breaking expectations.</p>\n<h3>Tested</h3>\n<p>Data is a powerful tool, but just like any tool, it can be abused. Gather and utilize qualitative and quantitative data and constantly strive to improve processes.</p>\n<h3>Iterative</h3>\n<p>The web is an ever-evolving platform, and web design is never finished.</p>\n<h3>Unobtrusive</h3>\n<p>The web is about information. Make it easy to find and stay out of the way.</p>\n<h3>Fast</h3>\n<p>The web thrives on the speed of information. Make things faster not slower.</p>\n<h3>As little design as possible</h3>\n<p>And as little code as possible.</p>\n<hr>\n<p>Infinitely inspired by Dieter Rams:\n<a href=\"https://www.vitsoe.com/us/about/good-design\">https://www.vitsoe.com/us/about/good-design</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/principles",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jxnblk",
+          "text": "jxnblk"
+        }
+      ]
+    }
+  ]
+}
